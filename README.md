@@ -55,6 +55,12 @@ curl --location --request DELETE 'localhost:8080/notes/1' \
 --data ''
 ```
 
+## Appendix
+
+1. Unit tests are created for better error catching
+2. Data validations and error handling are also applied
+3. H2 is used as in memory db
+
 
 ## Author
 
